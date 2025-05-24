@@ -1,0 +1,281 @@
+{
+  "analyzer": "ruff",
+  "labels": {
+    "C001": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/implicit-typing",
+      "severity:MEDIUM"
+    ],
+    "C002": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/interface-implicit-typing",
+      "severity:MEDIUM"
+    ],
+    "C003": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/implicit-external-procedures",
+      "severity:MEDIUM"
+    ],
+    "C011": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/missing-default-case",
+      "severity:MEDIUM"
+    ],
+    "C021": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/no-real-suffix",
+      "severity:MEDIUM"
+    ],
+    "C022": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/implicit-real-kind",
+      "severity:MEDIUM"
+    ],
+    "C031": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/magic-number-in-array-size",
+      "severity:MEDIUM"
+    ],
+    "C032": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/magic-io-unit",
+      "severity:MEDIUM"
+    ],
+    "C043": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/missing-action-specifier",
+      "severity:MEDIUM"
+    ],
+    "C051": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/trailing-backslash",
+      "severity:MEDIUM"
+    ],
+    "C061": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/missing-intent",
+      "severity:MEDIUM"
+    ],
+    "C071": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/assumed-size",
+      "severity:MEDIUM"
+    ],
+    "C072": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/assumed-size-character-intent",
+      "severity:MEDIUM"
+    ],
+    "C081": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/initialisation-in-declaration",
+      "severity:MEDIUM"
+    ],
+    "C082": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/pointer-initialisation-in-declaration",
+      "severity:MEDIUM"
+    ],
+    "C091": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/external-procedure",
+      "severity:MEDIUM"
+    ],
+    "C092": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/procedure-not-in-module",
+      "severity:MEDIUM"
+    ],
+    "C101": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/missing-default-pointer-initalisation",
+      "severity:MEDIUM"
+    ],
+    "C121": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/use-all",
+      "severity:MEDIUM"
+    ],
+    "C122": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/missing-intrinsic",
+      "severity:MEDIUM"
+    ],
+    "C131": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/missing-accessibility-statement",
+      "severity:MEDIUM"
+    ],
+    "C132": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/default-public-accessibility",
+      "severity:MEDIUM"
+    ],
+    "C141": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/missing-exit-or-cycle-label",
+      "severity:MEDIUM"
+    ],
+    "C142": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/exit-or-cycle-in-unlabelled-loop",
+      "severity:MEDIUM"
+    ],
+    "C143": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/missing-end-label",
+      "severity:MEDIUM"
+    ],
+    "C151": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/misleading-inline-if-semicolon",
+      "severity:MEDIUM"
+    ],
+    "C152": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/misleading-inline-if-continuation",
+      "severity:MEDIUM"
+    ],
+    "C161": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/nonportable-shortcircuit-inquiry",
+      "severity:MEDIUM"
+    ],
+    "C171": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/split-escaped-quote",
+      "severity:MEDIUM"
+    ],
+    "E000": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/io-error",
+      "severity:UNSPECIFIED"
+    ],
+    "E001": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/syntax-error",
+      "severity:UNSPECIFIED"
+    ],
+    "FORT001": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/invalid-rule-code-or-name",
+      "severity:UNSPECIFIED"
+    ],
+    "FORT002": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/unused-allow-comment",
+      "severity:UNSPECIFIED"
+    ],
+    "FORT003": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/redirected-allow-comment",
+      "severity:UNSPECIFIED"
+    ],
+    "FORT004": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/duplicated-allow-comment",
+      "severity:UNSPECIFIED"
+    ],
+    "FORT005": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/disabled-allow-comment",
+      "severity:UNSPECIFIED"
+    ],
+    "MOD001": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/double-precision",
+      "severity:LOW"
+    ],
+    "MOD002": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/double-precision-literal",
+      "severity:LOW"
+    ],
+    "MOD011": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/old-style-array-literal",
+      "severity:LOW"
+    ],
+    "MOD021": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/deprecated-relational-operator",
+      "severity:LOW"
+    ],
+    "MOD031": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/include-statement",
+      "severity:LOW"
+    ],
+    "MOD041": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/old-style-character-syntax",
+      "severity:LOW"
+    ],
+    "OB001": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/statement-function",
+      "severity:HIGH"
+    ],
+    "OB011": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/common-block",
+      "severity:HIGH"
+    ],
+    "OB021": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/entry-statement",
+      "severity:HIGH"
+    ],
+    "OB031": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/specific-name",
+      "severity:HIGH"
+    ],
+    "OB041": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/computed-go-to",
+      "severity:HIGH"
+    ],
+    "OB051": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/pause-statement",
+      "severity:HIGH"
+    ],
+    "OB061": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/deprecated-character-syntax",
+      "severity:HIGH"
+    ],
+    "PORT001": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/non-portable-io-unit",
+      "severity:MEDIUM"
+    ],
+    "PORT011": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/literal-kind",
+      "severity:MEDIUM"
+    ],
+    "PORT012": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/literal-kind-suffix",
+      "severity:MEDIUM"
+    ],
+    "PORT021": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/star-kind",
+      "severity:MEDIUM"
+    ],
+    "S001": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/line-too-long",
+      "severity:STYLE"
+    ],
+    "S061": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/unnamed-end-statement",
+      "severity:STYLE"
+    ],
+    "S071": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/missing-double-colon",
+      "severity:STYLE"
+    ],
+    "S081": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/superfluous-semicolon",
+      "severity:STYLE"
+    ],
+    "S082": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/multiple-statements-per-line",
+      "severity:STYLE"
+    ],
+    "S091": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/non-standard-file-extension",
+      "severity:STYLE"
+    ],
+    "S101": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/trailing-whitespace",
+      "severity:STYLE"
+    ],
+    "S102": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/incorrect-space-before-comment",
+      "severity:STYLE"
+    ],
+    "S201": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/superfluous-implicit-none",
+      "severity:STYLE"
+    ],
+    "S211": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/multiple-modules",
+      "severity:STYLE"
+    ],
+    "S212": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/program-with-module",
+      "severity:STYLE"
+    ],
+    "S221": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/function-missing-result",
+      "severity:STYLE"
+    ],
+    "S231": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/keywords-missing-space",
+      "severity:STYLE"
+    ],
+    "S232": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/keyword-has-whitespace",
+      "severity:STYLE"
+    ],
+    "S241": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/bad-quote-string",
+      "severity:STYLE"
+    ],
+    "S242": [
+      "doc_url:https://fortitude.readthedocs.io/en/stable/rules/avoidable-escaped-quote",
+      "severity:STYLE"
+    ]
+  }
+}
